@@ -198,6 +198,12 @@ __attribute__((swift_name("ShareModulesKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KoinHelperKt")))
+@interface MoviesKoinHelperKt : MoviesBase
++ (void)doInitKoin __attribute__((swift_name("doInitKoin()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreKoin")))
 @interface MoviesKoin_coreKoin : MoviesBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
